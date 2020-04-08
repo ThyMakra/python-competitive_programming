@@ -20,7 +20,7 @@ For each point, the distance from the northest place (12 o'clock) to the point i
 K = 20; N = 3; A = [5, 10, 15] # input
 
 A += [K + A[0]] # add 1st(smallest) distance + 1 loop 
-dM = K - max(y-x for x, y in zip(A, A[1:])) # Perimeter - Bbggest difference of all points next to each other
+dM = K - max(y-x for x, y in zip(A, A[1:])) # Perimeter - Biggest difference of all points next to each other
 dM
 ```
 > \>>> 10
