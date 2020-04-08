@@ -28,7 +28,7 @@ dM
 The minimum distance is : \
 **Minimum distance = The perimeter - The biggest difference of all points next to each other**
 > Example: If all the points occupy half of the circle then there will be an empty space. \
-So **perimeter - biggest diff** == **perimeter - empty space**. We can get a line distance that covers all the points on the circle. \
+So **perimeter - biggest diff** is **perimeter - empty space**. We can get a line distance that covers all the points on the circle. \
 > It could be any sides (left half, right half etc) since we also consider the _"smallest + 1 loop"_.
 
 ### Hint
